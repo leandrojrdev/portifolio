@@ -26,15 +26,15 @@ const useScript = url => {
             constructor() {
                 this.x = mouse.x
                 this.y = mouse.y
-                this.size = Math.random() * 2 + 0.8
+                this.size = Math.random() * 2 + 0.1
                 this.speedX = Math.random() * 2 - 1
                 this.speedY = Math.random() * 2 - 1
-                this.color = 'hsl(' + hue + ', 100%, 50%)';
+                this.color = 'hsl(' + hue + ', 80%, 50%)';
             }
             update() {
                 this.x += this.speedX;
                 this.y += this.speedY;
-                if (this.size > 0.3) this.size -= 0.03
+                if (this.size > 0.1) this.size -= 0.01
             }
             draw() {
                 ctx.fillStyle = this.color
