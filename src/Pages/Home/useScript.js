@@ -27,9 +27,9 @@ const useScript = url => {
                 this.x = mouse.x
                 this.y = mouse.y
                 this.size = Math.random() * 2 + 0.1
-                this.speedX = Math.random() * 2 - 1
+                this.speedX = Math.random() * 2 - 2
                 this.speedY = Math.random() * 2 - 1
-                this.color = 'hsl(' + hue + ', 80%, 50%)';
+                this.color = 'hsl(' + hue + ', 100%, 50%)';
             }
             update() {
                 this.x += this.speedX;
