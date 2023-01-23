@@ -23,9 +23,10 @@ export default function Sidebar() {
                 </nav>
             </div>
             <div className='redes flex-class'>
-                <Link><FaGithub /></Link>
-                <Link><FaLinkedin /></Link>
-                <Link><FaInstagram /></Link>
+                <a href='https://github.com/leandrojrdev' target='_blank' rel="noopener noreferrer"><FaGithub /></a>
+                <a href='https://www.linkedin.com/in/leandrobernardo-/' target='_blank' rel="noopener noreferrer"><FaLinkedin /></a>
+                <a href='https://www.instagram.com/_leozinnx_/' target='_blank' rel="noopener noreferrer"><FaInstagram /></a>
+
 
             </div>
         </SidebarContainer>
