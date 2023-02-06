@@ -11,8 +11,7 @@ export const SidebarContainer = styled.div`
     align-items: center;
     color: white;
     box-shadow: 1px 5px 5px black;
-    position: relative;
-    z-index: 22;
+    position: fixed;
 
     .logo{
         width: 100%;

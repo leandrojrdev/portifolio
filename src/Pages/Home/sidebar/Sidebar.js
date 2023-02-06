@@ -4,7 +4,7 @@ import { SidebarContainer } from './Styled-Sidebar';
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
-import logo from '../../../../Images/logo.png'
+import logo from '../../../Images/logo.png'
 
 
 export default function Sidebar() {

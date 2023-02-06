@@ -1,22 +1,20 @@
-import styled, {keyframes} from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 const arrow01 = keyframes`
   50%{
     margin-top: 20vh;
   }
-
-
 `
 
+export const Section01Container = styled.div`
 
-export const StyledMainContainer = styled.div`
-    width: 88%;
+    width: 100%;
     height: 100vh;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin: 10% 4%;
+    padding-left: 16%;
 
     h1{
         margin-top: 30vh;
